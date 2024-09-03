@@ -121,9 +121,29 @@ git checkout dev
 
 ## Remotes
 
-## staging
+We can add remote but often you will just add remote via upstream when add branch
+
+```sh
+git remote add ...
+git branch -u origin new-feature
+```
+## stashing
+
+```
+git stach list
+git stach
+git stach save my-name
+git stach apply
+git stach apply
+```
 
 ## Merging
+
+```
+git checkout dev
+git merge main
+```
+
 
 ## Add
 
